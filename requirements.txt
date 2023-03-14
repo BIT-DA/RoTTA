@@ -1,0 +1,9 @@
+prettytable==3.4.1
+yacs==0.1.8
+argparse==1.4.0
+tqdm==4.56.2
+torch==1.10.0
+torchvision==0.11.1
+torchaudio==0.10.0
+setproctitle==1.3.2
+git+https://github.com/robustbench/robustbench.git

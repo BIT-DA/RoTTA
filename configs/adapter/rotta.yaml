@@ -1,0 +1,26 @@
+TEST:
+  BATCH_SIZE: 64
+
+OPTIM:
+  METHOD: Adam
+  STEPS: 1
+  BETA: 0.9
+  LR: 1e-3
+  WD: 0.
+
+INPUT:
+  SIZE: (32, 32)
+
+ADAPTER:
+  NAME: rotta
+  RoTTA:
+    NU: 0.001
+    MEMORY_SIZE: 64
+    UPDATE_FREQUENCY: 64
+    LAMBDA_T: 1.0
+    LAMBDA_U: 1.0
+    ALPHA: 0.05
+
+LOADER:
+  SAMPLER:
+    TYPE: "temporal"

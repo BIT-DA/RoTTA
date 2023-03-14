@@ -1,0 +1,20 @@
+DATA_MANAGE:
+  CORRUPTION:
+    SEVERITY:
+    - 5
+    TYPE:
+    - pixelate
+    - glass_blur
+    - zoom_blur
+    - snow
+    - fog
+    - impulse_noise
+    - brightness
+    - motion_blur
+    - frost
+    - jpeg_compression
+    - gaussian_noise
+    - shot_noise
+    - contrast
+    - defocus_blur
+    - elastic_transform
