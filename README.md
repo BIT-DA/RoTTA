@@ -20,10 +20,10 @@ Run RoTTA by
 python ptta.py \
       -acfg configs/adapter/rotta.yaml \
       -dcfg configs/dataset/cifar10.yaml \
-      OUTPUT_DIR roma/cifar10
+      OUTPUT_DIR RoTTA/cifar10
 
 python ptta.py \
       -acfg configs/adapter/rotta.yaml \
       -dcfg configs/dataset/cifar100.yaml \
-      OUTPUT_DIR roma/cifar100
+      OUTPUT_DIR RoTTA/cifar100
 ```
