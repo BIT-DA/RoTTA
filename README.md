@@ -12,11 +12,13 @@
 </div>
 
 - [Overview](#overview)
-- [Prerequisites Installation](#prerequisites-installation)
+- [Prerequisites Installation](#prerequisites)
 - [Datasets Preparation](#datasets-preparation)
 - [Code Running](#code-running)
-- [Citation](#citation)
+- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+<!-- - [Citation](#citation) -->
+
 
 
 ## Overview
@@ -26,32 +28,30 @@ Meanwhile, we propose a robust test-time adaptation (RoTTA) method, which has a 
 
 ![image](./resources/framework.png)
 
-
-## Prerequisites Installation
-
-## Datasets Preparation
-
-## Code Running
-
-## Citation
-
-## Contact
-
-PyTorch's implementation for RoTTA.
-
-Firstly, create environment by
+## Prerequisites
+Step by Step installation,
 ```bash
 conda create -n rotta python=3.9.0
 conda activate rotta
+
+# this installs the right pip and dependencies for the fresh python
+conda install -y ipython pip
+
+# this installs required packages
 pip install -r requirements.txt
 ```
 
-Link dataset by
+
+## Datasets Preparation
+Download [CIFAR-10-C](https://zenodo.org/record/2535967#.ZDETTHZBxhF) and [CIFAR-100-C](https://zenodo.org/record/3555552#.ZDES-XZBxhE). (Running the code directly also works, since it automatically downloads the data set at the first running, but it's too slow to tolerate and has high requirements on internet stability)
+
+Symlink dataset by
 ```bash
 ln -s path_to_cifar10_c datasets/CIFAR-10-C
 ln -s path_to_cifar100_c datasets/CIFAR-100-C
 ```
 
+## Code Running
 Run RoTTA by
 ```bash
 python ptta.py \
@@ -64,3 +64,20 @@ python ptta.py \
       -dcfg configs/dataset/cifar100.yaml \
       OUTPUT_DIR RoTTA/cifar100
 ```
+
+## Acknowledgements
+This project is based on the following open-source projects: [tent](https://github.com/DequanWang/tent) and [cotta](https://github.com/qinenergy/cotta). We thank their authors for making the source code publicly available.
+
+<!-- ## Citation
+@inproceedings{yuan2023rotta,
+    author    = {Yuan, Longhui and Xie, Binhui and Li, Shuang},
+    title     = {Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain Adaptive Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2023}
+} -->
+
+## Contact
+If you have any problem with our code, feel free to contact longhuiyuan@bit.edu.cn or describe your problem in Issues.
+
+
+
