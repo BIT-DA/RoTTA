@@ -11,12 +11,12 @@
 
 </div>
 
-- [Overview](#overview)
+<!-- - [Overview](#overview)
 - [Prerequisites Installation](#prerequisites)
 - [Datasets Preparation](#datasets-preparation)
 - [Code Running](#code-running)
 - [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
+- [Contact](#contact) -->
 <!-- - [Citation](#citation) -->
 
 
