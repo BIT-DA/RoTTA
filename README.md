@@ -1,4 +1,41 @@
-## Robust Test-Time Adaptation in Dynamic Scenarios
+ ---
+
+<div align="center">    
+ 
+# Robust Test-Time Adaptation in Dynamic Scenarios (CVPR 2023)
+
+[Longhui Yuan](https://yuanlonghui.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz)
+
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-%23B31B1B?style=flat-square)](https://arxiv.org/abs/2303.13899)&nbsp;&nbsp;
+
+</div>
+
+- [Overview](#overview)
+- [Prerequisites Installation](#prerequisites-installation)
+- [Datasets Preparation](#datasets-preparation)
+- [Code Running](#code-running)
+- [Citation](#citation)
+- [Contact](#contact)
+
+
+## Overview
+We propose a new test-time adaptation setup that is more suitable for real-world applications, namely practical test-time adaptation (PTTA). 
+PTTA considers both distribution changing and correlation sampling.
+Meanwhile, we propose a robust test-time adaptation (RoTTA) method, which has a more comprehensive consideration of the challenges of PTTA.
+
+![image](./resources/framework.png)
+
+
+## Prerequisites Installation
+
+## Datasets Preparation
+
+## Code Running
+
+## Citation
+
+## Contact
 
 PyTorch's implementation for RoTTA.
 
