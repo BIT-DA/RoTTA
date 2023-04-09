@@ -68,14 +68,16 @@ python ptta.py \
 ## Acknowledgements
 This project is based on the following open-source projects: [tent](https://github.com/DequanWang/tent) and [cotta](https://github.com/qinenergy/cotta). We thank their authors for making the source code publicly available.
 
-<!-- ## Citation
+## Citation
+
+```bibtex
 @inproceedings{yuan2023rotta,
     author    = {Yuan, Longhui and Xie, Binhui and Li, Shuang},
-    title     = {Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain Adaptive Semantic Segmentation},
+    title     = {Robust Test-Time Adaptation in Dynamic Scenarios},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2023}
-} -->
-
+}
+```
 ## Contact
 If you have any problem with our code, feel free to contact longhuiyuan@bit.edu.cn or describe your problem in Issues.
 
