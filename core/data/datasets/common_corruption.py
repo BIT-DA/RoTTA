@@ -19,7 +19,7 @@ class CorruptionCIFAR(TTADatasetBase):
         for i_s, severity in enumerate(self.severity):
             for i_c, corruption in enumerate(self.corruptions):
                 d_name = f"{corruption}_{severity}"
-                d_id = i_s * len(self.severity) + i_c
+                d_id = i_s * len(self.corruptions) + i_c
                 self.domain_id_to_name[d_id] = d_name
                 x, y = self.load_image(cfg.CORRUPTION.NUM_EX,
                                        severity,
